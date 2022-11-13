@@ -6,99 +6,106 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
+<body class="page">
   <header>
-    <nav>
-      <a href="./index.html"><span class="accent">Web</span>Studio</a>
-      <ul>
-        <li><a href="">Студія</a></li>
-        <li><a href="./portfolio.html">Портфоліо</a></li>
-        <li><a href="">Контакти</a></li>
+    <nav class="header-nav">
+      <a href="./index.html" class="header-logo"><span class="accent">Web</span>Studio</a>
+      <ul class="list list-none">
+        <li><a href="" class="link current">Студія</a></li>
+        <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+        <li><a href="" class="link">Контакти</a></li>
       </ul>
     </nav>
-    <a href="tel:+380961111111">+38 096 111 11 11</a>
-    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+    <a href="tel:+380961111111" class="contacts-link">+38 096 111 11 11</a>
+    <a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a>
   </header>
   <main>
     <section>
       <!-- Заголовок -->
-      <h1>Ефективні рішення для <br> вашого бізнесу</h1>
+      <h1 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h1>
       <!-- Кнопка -->
-      <button type="button">Замовити послугу</button>
+      <button type="button" class="button-main">Замовити послугу</button>
     </section>
     <!-- Блок "що ми робимо" -->
-    <section>
-      <h2>Переваги компанії</h2>
-      <ul>
+    <section class="section">
+      <h2 class="section-title">Переваги компанії</h2>
+      <ul class="benefits list-none">
         <li>
-          <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-          <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+          <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+          <p class="list">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
         </li>
         <li>
-          <h3>ПУНКТУАЛЬНІСТЬ</h3>
-          <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+          <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
+          <p class="list">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
         </li>
         <li>
-          <h3>ПЛАНУВАННЯ</h3>
-          <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+          <h3 class="title">ПЛАНУВАННЯ</h3>
+          <p class="list">Так само консультація з широким активом значною мірою зумовлює.</p>
         </li>
         <li>
-          <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-          <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+          <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+          <p class="list">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
         </li>
       </ul>
     </section>
     <!-- Чим ми займаємось -->
-    <section>
-      <h2>Чим ми займаємося</h2>
-      <ul>
-        <li><img src="./images/section1.jpg" alt="Фото робочого місця" width="370" height="294"></li>
+    <section class="section">
+      <h2 class="section-title">Чим ми займаємося</h2>
+      <ul class="images list-none">
+        <li><img src=" ./images/section1.jpg" alt="Фото робочого місця" width="370" height="294">
+        </li>
         <li><img src="./images/section2.jpg" alt="Фото робочого місця" width="370" height="294"></li>
         <li><img src="./images/section3.jpg" alt="Фото робочого місця" width="370" height="294"></li>
       </ul>
     </section>
     <!-- <Блок Наша команда -->
-    <section>
-      <h2>Наша команда</h2>
-      <ul>
+    <section class="section">
+      <h2 class="section-title">Наша команда</h2>
+      <ul class="team list-none">
         <li>
           <img src="./images/expert1.jpg" alt="Фото спеціаліста" width="270" height="260">
-          <h3>Ігор Дем'яненко</h3>
-          <p>Product Designer</p>
+          <h3 class="title">Ігор Дем'яненко</h3>
+          <p class="list">Product Designer</p>
         </li>
         <li>
           <img src="./images/expert2.jpg" alt="Фото спеціаліста" width="270" height="260">
-          <h3>Ольга Рєпіна</h3>
-          <p>Frontend Developer</p>
+          <h3 class="title">Ольга Рєпіна</h3>
+          <p class="list">Frontend Developer</p>
         </li>
         <li>
           <img src="./images/expert3.jpg" alt="Фото спеціаліста" width="270" height="260">
-          <h3>Микола Тарасов</h3>
-          <p>Marketing</p>
+          <h3 class="title">Микола Тарасов</h3>
+          <p class="list">Marketing</p>
         </li>
         <li>
           <img src="./images/expert4.jpg" alt="Фото спеціаліста" width="270">
-          <h3>Михайло Єрмаков</h3>
-          <p>UI Designer</p>
+          <h3 class="title">Михайло Єрмаков</h3>
+          <p class="list">UI Designer</p>
         </li>
       </ul>
     </section>
   </main>
+
+  <!-- Футер -->
   <footer>
-    <!-- Футер -->
-    <a href="./index.html">WebStudio</a>
+    <a href="./index.html" class="footer-logo"><span class="accent">Web</span>Studio</a>
     <address>
-      <ul>
+      <ul class="footer list-none">
         <li>
-          <a href="https://goo.gl/maps/ectcBmG9iyxuU2Wz6">м. Київ, пр-т Лесі Українки, 26</a>
+          <a href="https://goo.gl/maps/ectcBmG9iyxuU2Wz6" class="footer-adress">м. Київ, пр-т Лесі Українки, 26</a>
         </li>
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </li>
       </ul>
     </address>
