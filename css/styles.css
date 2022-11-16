@@ -23,17 +23,18 @@ body {
 .header-logo {
   color: #000000;
   font-family: Raleway;
-  font-weight: 700;
   font-size: 26px;
-  line-height: 1,19;
+  line-height: 1.19;
+  text-decoration: none;
 }
 /* Стилі ссилок */
 .header-nav .link {
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .header-nav .link:hover, 
 .header-nav .link:focus {
@@ -48,8 +49,9 @@ body {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contacts-link:hover, :focus {
   color: var(--accent-text-color);
@@ -59,7 +61,7 @@ body {
   color: var(--title-text-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1,36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -70,9 +72,8 @@ body {
   background-color: var(--accent-text-color);
   cursor: pointer;
   font-family: inherit;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1,88;
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
@@ -85,7 +86,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,63;
+  line-height: 1.63;
 }
 .button:hover, 
 .button:focus {
@@ -96,25 +97,24 @@ body {
 /* Заголовок секції */
 .section-title {
   columns: var(--primery-text-color);
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1,17;
+  line-height: 1.17;
   text-align: center;
 }
 
 /* Переваги */
 .benefits .title {
-  color: var(--primery-text-color)
+  color: var(--primery-text-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
   text-transform: uppercase;
   
 }
 .benefits .list {
-  color: var(--paragraph-text-color)
+  color: var(--paragraph-text-color);
   font-size: 14px;
-  line-height: 1,71;
+  line-height: 1.71;
 }
 
 /* Команда */
@@ -122,13 +122,13 @@ body {
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,19;
+  line-height: 1.19;
   text-align: center;
 }
 .team .list {
   color:  var(--paragraph-text-color);
   font-size: 16px;
-  line-height: 1,19;
+  line-height: 1.19;
   text-align: center;
 }
 
@@ -136,7 +136,6 @@ body {
 /* Портфолио */
 .portfolio .title {
   color: var(--primery-text-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -145,7 +144,7 @@ body {
 .portfolio .list {
   color: var(--paragraph-text-color);
   font-size: 16px;
-line-height: 1,88;
+line-height: 1.88;
 }
 
 
@@ -153,17 +152,21 @@ line-height: 1,88;
 .footer-logo {
   color: var(--title-text-color);
   font-family: Raleway;
-  font-weight: 700;
   font-size: 26px;
-  line-height: 1,19;
+  line-height: 1.19;
+  text-decoration: none;
 }
 .footer .footer-adress {
   color: var(--title-text-color);
   font-size: 14px;
-  line-height: 1,71;
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
 }
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
-  line-height: 1,71;
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
 }
